@@ -1,0 +1,20 @@
+body {
+  font-size: 14px;
+}
+
+:root {
+  --myy-primary-color: #295dfa;
+  --myy-primary-hover-color-lighter: #547dfb;
+  --myy-primary-hover-color: #053eeb;
+  --myy-border-color: #dcdfe6;
+  --myy-border-radius-base: 6px;
+  --myy-example-padding: 24px;
+}
+
+:root {
+  --vp-c-brand: var(--myy-primary-color);
+  --vp-c-brand-light: var(--myy-primary-hover-color);
+  --vp-c-brand-lighter: var(--myy-primary-hover-color-lighter);
+  --vp-c-brand-dark: var(--myy-primary-color);
+  --vp-c-brand-darker: var(--myy-primary-hover-color);
+}
